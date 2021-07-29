@@ -1,8 +1,8 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Tests;
+namespace Coldsnakedigital\GuzzleJwt\Tests;
 
-use Eljam\GuzzleJwt\JwtToken;
+use Coldsnakedigital\GuzzleJwt\JwtToken;
 
 class JwtTokenTest extends \PHPUnit\Framework\TestCase
 {

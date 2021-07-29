@@ -1,9 +1,9 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Persistence;
+namespace Coldsnakedigital\GuzzleJwt\Persistence;
 
-use Eljam\GuzzleJwt\JwtToken;
-use Eljam\GuzzleJwt\Persistence\TokenPersistenceInterface;
+use Coldsnakedigital\GuzzleJwt\JwtToken;
+use Coldsnakedigital\GuzzleJwt\Persistence\TokenPersistenceInterface;
 use Psr\SimpleCache\CacheInterface;
 
 /**

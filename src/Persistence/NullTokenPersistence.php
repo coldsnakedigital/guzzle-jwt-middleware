@@ -1,8 +1,8 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Persistence;
+namespace Coldsnakedigital\GuzzleJwt\Persistence;
 
-use Eljam\GuzzleJwt\JwtToken;
+use Coldsnakedigital\GuzzleJwt\JwtToken;
 
 /**
  * @author Sevastian Hübner <development@tryfailrepeat.de>

@@ -1,8 +1,8 @@
 <?php
 
-namespace Eljam\GuzzleJwt;
+namespace Coldsnakedigital\GuzzleJwt;
 
-use Eljam\GuzzleJwt\Manager\JwtManager;
+use Coldsnakedigital\GuzzleJwt\Manager\JwtManager;
 use Psr\Http\Message\RequestInterface;
 
 /**

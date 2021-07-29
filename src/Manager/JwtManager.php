@@ -1,11 +1,11 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Manager;
+namespace Coldsnakedigital\GuzzleJwt\Manager;
 
-use Eljam\GuzzleJwt\JwtToken;
-use Eljam\GuzzleJwt\Persistence\NullTokenPersistence;
-use Eljam\GuzzleJwt\Persistence\TokenPersistenceInterface;
-use Eljam\GuzzleJwt\Strategy\Auth\AuthStrategyInterface;
+use Coldsnakedigital\GuzzleJwt\JwtToken;
+use Coldsnakedigital\GuzzleJwt\Persistence\NullTokenPersistence;
+use Coldsnakedigital\GuzzleJwt\Persistence\TokenPersistenceInterface;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\AuthStrategyInterface;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\request;
 use Symfony\Component\OptionsResolver\OptionsResolver;

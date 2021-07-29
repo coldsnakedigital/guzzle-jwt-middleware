@@ -1,10 +1,10 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Tests\Manager;
+namespace Coldsnakedigital\GuzzleJwt\Tests\Manager;
 
-use Eljam\GuzzleJwt\JwtToken;
-use Eljam\GuzzleJwt\Manager\JwtManager;
-use Eljam\GuzzleJwt\Strategy\Auth\QueryAuthStrategy;
+use Coldsnakedigital\GuzzleJwt\JwtToken;
+use Coldsnakedigital\GuzzleJwt\Manager\JwtManager;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\QueryAuthStrategy;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\MockHandler;

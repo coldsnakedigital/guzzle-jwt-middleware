@@ -1,10 +1,10 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Tests\Persistence;
+namespace Coldsnakedigital\GuzzleJwt\Tests\Persistence;
 
-use Eljam\GuzzleJwt\JwtToken;
-use Eljam\GuzzleJwt\Persistence\NullTokenPersistence;
-use Eljam\GuzzleJwt\Persistence\SimpleCacheTokenPersistence;
+use Coldsnakedigital\GuzzleJwt\JwtToken;
+use Coldsnakedigital\GuzzleJwt\Persistence\NullTokenPersistence;
+use Coldsnakedigital\GuzzleJwt\Persistence\SimpleCacheTokenPersistence;
 use Kodus\Cache\MockCache;
 use Psr\SimpleCache\CacheInterface;
 

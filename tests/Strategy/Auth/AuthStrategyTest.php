@@ -1,11 +1,11 @@
 <?php
 
-namespace Eljam\GuzzleJwt\Tests\Strategy\Auth;
+namespace Coldsnakedigital\GuzzleJwt\Tests\Strategy\Auth;
 
-use Eljam\GuzzleJwt\Strategy\Auth\FormAuthStrategy;
-use Eljam\GuzzleJwt\Strategy\Auth\HttpBasicAuthStrategy;
-use Eljam\GuzzleJwt\Strategy\Auth\JsonAuthStrategy;
-use Eljam\GuzzleJwt\Strategy\Auth\QueryAuthStrategy;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\FormAuthStrategy;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\HttpBasicAuthStrategy;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\JsonAuthStrategy;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\QueryAuthStrategy;
 
 /**
  * @author Guillaume Cavavana <guillaume.cavana@gmail.com>

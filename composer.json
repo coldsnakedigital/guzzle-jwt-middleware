@@ -12,12 +12,12 @@
     ],
     "autoload" : {
         "psr-4" : {
-            "Eljam\\GuzzleJwt\\" : ["src/"]
+            "Coldsnakedigital\\GuzzleJwt\\" : ["src/"]
         }
     },
     "autoload-dev" : {
         "psr-4": {
-            "Eljam\\GuzzleJwt\\Tests\\": ["tests/"]
+            "Coldsnakedigital\\GuzzleJwt\\Tests\\": ["tests/"]
         }
     },
     "require-dev": {

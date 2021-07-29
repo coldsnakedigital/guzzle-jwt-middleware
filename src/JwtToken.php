@@ -1,6 +1,6 @@
 <?php
 
-namespace Eljam\GuzzleJwt;
+namespace Coldsnakedigital\GuzzleJwt;
 
 /**
  * @author Guillaume Cavana <guillaume.cavana@gmail.com>

@@ -24,9 +24,9 @@ Works great with [LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJW
 ```php
 <?php
 
-use Eljam\GuzzleJwt\JwtMiddleware;
-use Eljam\GuzzleJwt\Manager\JwtManager;
-use Eljam\GuzzleJwt\Strategy\Auth\QueryAuthStrategy;
+use Coldsnakedigital\GuzzleJwt\JwtMiddleware;
+use Coldsnakedigital\GuzzleJwt\Manager\JwtManager;
+use Coldsnakedigital\GuzzleJwt\Strategy\Auth\QueryAuthStrategy;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 
@@ -133,7 +133,7 @@ If you have any [PSR-16 compatible cache](https://www.php-fig.org/psr/psr-16/), 
 ```php
 <?php
 
-use Eljam\GuzzleJwt\Persistence\SimpleCacheTokenPersistence;
+use Coldsnakedigital\GuzzleJwt\Persistence\SimpleCacheTokenPersistence;
 use Psr\SimpleCache\CacheInterface;
 
 /**
@@ -149,7 +149,7 @@ Optionnally you can specify the TTL and cache key used:
 ```php
 <?php
 
-use Eljam\GuzzleJwt\Persistence\SimpleCacheTokenPersistence;
+use Coldsnakedigital\GuzzleJwt\Persistence\SimpleCacheTokenPersistence;
 use Psr\SimpleCache\CacheInterface;
 
 /**
@@ -171,7 +171,7 @@ You may create you own persistence handler by implementing the `TokenPersistence
 ```php
 namespace App\Jwt\Persistence;
 
-use Eljam\GuzzleJwt\Persistence\TokenPersistenceInterface;
+use Coldsnakedigital\GuzzleJwt\Persistence\TokenPersistenceInterface;
 
 class MyCustomPersistence implements TokenPersistenceInterface
 {
