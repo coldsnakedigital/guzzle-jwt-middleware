@@ -31,7 +31,7 @@ use GuzzleHttp\HandlerStack;
 require_once 'vendor/autoload.php';
 
 //Create your auth strategy
-$authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+$authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
 //Optionnal: create your persistence strategy
 $persistenceStrategy = null;
@@ -78,9 +78,9 @@ try {
 ```php
 $authStrategy = new QueryAuthStrategy(
     [
-        'username' => 'admin',
+        'email' => 'admin',
         'password' => 'admin',
-        'query_fields' => ['username', 'password'],
+        'query_fields' => ['email', 'password'],
     ]
 );
 ```
@@ -90,9 +90,9 @@ $authStrategy = new QueryAuthStrategy(
 ```php
 $authStrategy = new FormAuthStrategy(
     [
-        'username' => 'admin',
+        'email' => 'admin',
         'password' => 'admin',
-        'form_fields' => ['username', 'password'],
+        'form_fields' => ['email', 'password'],
     ]
 );
 ```
@@ -102,7 +102,7 @@ $authStrategy = new FormAuthStrategy(
 ```php
 $authStrategy = new HttpBasicAuthStrategy(
     [
-        'username' => 'admin',
+        'email' => 'admin',
         'password' => 'password',
     ]
 );
@@ -112,9 +112,9 @@ $authStrategy = new HttpBasicAuthStrategy(
 ```php
 $authStrategy = new JsonAuthStrategy(
     [
-        'username' => 'admin',
+        'email' => 'admin',
         'password' => 'admin',
-        'json_fields' => ['username', 'password'],
+        'json_fields' => ['email', 'password'],
     ]
 );
 ```

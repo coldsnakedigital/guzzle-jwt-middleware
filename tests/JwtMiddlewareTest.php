@@ -32,7 +32,7 @@ class JwtMiddlewareTest extends \PHPUnit\Framework\TestCase
         $authClient = new Client(['handler' => $authMockHandler]);
         $jwtManager = new JwtManager(
             $authClient,
-            (new HttpBasicAuthStrategy(['username' => 'test', 'password' => 'test']))
+            (new HttpBasicAuthStrategy(['email' => 'test', 'password' => 'test']))
         );
 
         $mockHandler = new MockHandler([
@@ -70,7 +70,7 @@ class JwtMiddlewareTest extends \PHPUnit\Framework\TestCase
         $authClient = new Client(['handler' => $authMockHandler]);
         $jwtManager = new JwtManager(
             $authClient,
-            (new HttpBasicAuthStrategy(['username' => 'test', 'password' => 'test']))
+            (new HttpBasicAuthStrategy(['email' => 'test', 'password' => 'test']))
         );
 
         $mockHandler = new MockHandler([

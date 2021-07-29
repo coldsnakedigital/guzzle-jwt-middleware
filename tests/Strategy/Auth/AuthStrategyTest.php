@@ -19,7 +19,7 @@ class AuthStrategyTest extends \PHPUnit\Framework\TestCase
     {
         $authStrategy = new FormAuthStrategy(
             [
-                'username' => 'admin',
+                'email' => 'admin',
                 'password' => 'admin',
                 'form_fields' => ['login', 'password'],
             ]
@@ -40,16 +40,16 @@ class AuthStrategyTest extends \PHPUnit\Framework\TestCase
     {
         $authStrategy = new QueryAuthStrategy(
             [
-                'username' => 'admin',
+                'email' => 'admin',
                 'password' => 'admin',
-                'query_fields' => ['username', 'password'],
+                'query_fields' => ['email', 'password'],
             ]
         );
 
-        $this->assertTrue(array_key_exists('username', $authStrategy->getRequestOptions()['query']));
+        $this->assertTrue(array_key_exists('email', $authStrategy->getRequestOptions()['query']));
         $this->assertTrue(array_key_exists('password', $authStrategy->getRequestOptions()['query']));
 
-        $this->assertEquals('admin', $authStrategy->getRequestOptions()['query']['username']);
+        $this->assertEquals('admin', $authStrategy->getRequestOptions()['query']['email']);
         $this->assertEquals('admin', $authStrategy->getRequestOptions()['query']['password']);
     }
 
@@ -60,7 +60,7 @@ class AuthStrategyTest extends \PHPUnit\Framework\TestCase
     {
         $authStrategy = new HttpBasicAuthStrategy(
             [
-                'username' => 'admin',
+                'email' => 'admin',
                 'password' => 'password',
             ]
         );
@@ -76,7 +76,7 @@ class AuthStrategyTest extends \PHPUnit\Framework\TestCase
     {
         $authStrategy = new JsonAuthStrategy(
             [
-                'username' => 'admin',
+                'email' => 'admin',
                 'password' => 'admin',
                 'json_fields' => ['login', 'password'],
             ]

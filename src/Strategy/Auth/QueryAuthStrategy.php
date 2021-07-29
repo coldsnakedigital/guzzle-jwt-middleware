@@ -17,7 +17,7 @@ class QueryAuthStrategy extends AbstractBaseAuthStrategy
         parent::configureOptions($resolver);
 
         $resolver->setDefaults([
-            'query_fields' => ['username', 'password'],
+            'query_fields' => ['email', 'password'],
         ]);
 
         $resolver->setRequired(['query_fields']);
@@ -30,7 +30,7 @@ class QueryAuthStrategy extends AbstractBaseAuthStrategy
     {
         return [
             \GuzzleHttp\RequestOptions::QUERY => [
-                $this->options['query_fields'][0] => $this->options['username'],
+                $this->options['query_fields'][0] => $this->options['email'],
                 $this->options['query_fields'][1] => $this->options['password'],
             ],
         ];

@@ -14,7 +14,7 @@ class HttpBasicAuthStrategy extends AbstractBaseAuthStrategy
     {
         return [
             \GuzzleHttp\RequestOptions::AUTH => [
-                $this->options['username'],
+                $this->options['email'],
                 $this->options['password'],
             ],
         ];

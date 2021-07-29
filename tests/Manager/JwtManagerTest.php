@@ -56,7 +56,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,
@@ -114,7 +114,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,
@@ -161,7 +161,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,
@@ -200,7 +200,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,
@@ -255,7 +255,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,
@@ -315,7 +315,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,
@@ -379,7 +379,7 @@ EOF;
             'handler' => $handler,
         ]);
 
-        $authStrategy = new QueryAuthStrategy(['username' => 'admin', 'password' => 'admin']);
+        $authStrategy = new QueryAuthStrategy(['email' => 'admin', 'password' => 'admin']);
 
         $jwtManager = new JwtManager(
             $authClient,

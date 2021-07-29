@@ -17,7 +17,7 @@ class FormAuthStrategy extends AbstractBaseAuthStrategy
         parent::configureOptions($resolver);
 
         $resolver->setDefaults([
-            'form_fields' => ['_username', '_password'],
+            'form_fields' => ['_email', '_password'],
         ]);
 
         $resolver->setRequired(['form_fields']);
@@ -30,7 +30,7 @@ class FormAuthStrategy extends AbstractBaseAuthStrategy
     {
         return [
             \GuzzleHttp\RequestOptions::FORM_PARAMS => [
-                $this->options['form_fields'][0] => $this->options['username'],
+                $this->options['form_fields'][0] => $this->options['email'],
                 $this->options['form_fields'][1] => $this->options['password'],
             ],
         ];

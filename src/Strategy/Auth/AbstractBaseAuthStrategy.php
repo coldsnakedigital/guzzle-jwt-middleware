@@ -37,11 +37,11 @@ abstract class AbstractBaseAuthStrategy implements AuthStrategyInterface
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'username' => '',
+            'email' => '',
             'password' => '',
         ));
 
-        $resolver->setRequired(['username', 'password']);
+        $resolver->setRequired(['email', 'password']);
     }
 
     /**
