@@ -1,4 +1,4 @@
-# Guzzle Jwt middleware
+# Guzzle JWT middleware
 
 [![Build Status](https://img.shields.io/travis/eljam/guzzle-jwt-middleware.svg?branch=master&style=flat-square)](https://travis-ci.org/eljam/guzzle-jwt-middleware)
 [![Code Quality](https://img.shields.io/scrutinizer/g/eljam/guzzle-jwt-middleware.svg?b=master&style=flat-square)](https://scrutinizer-ci.com/g/eljam/guzzle-jwt-middleware/?branch=master)
@@ -11,11 +11,13 @@
 
 ## Introduction
 
+Forked from [https://github.com/eljam/guzzle-jwt-middleware](https://github.com/eljam/guzzle-jwt-middleware)
+
 Works great with [LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle)
 
 ## Installation
 
-`composer require eljam/guzzle-jwt-middleware`
+`composer require coldsnakedigital/guzzle-jwt-middleware`
 
 ## Usage
 

@@ -1,8 +1,8 @@
 {
-    "name": "eljam/guzzle-jwt-middleware",
-    "description": "A jwt authentication middleware for guzzle 6",
+    "name": "coldsnakedigital/guzzle-jwt-middleware",
+    "description": "A JWT authentication middleware for guzzle 6",
     "keywords": ["guzzle", "guzzle6", "jwt", "auth", "http", "psr7", "handler", "middleware"],
-    "homepage": "https://github.com/eljam/guzzle-jwt-middleware",
+    "homepage": "https://github.com/coldsnakedigital/guzzle-jwt-middleware",
     "license": "MIT",
     "authors": [
         {
